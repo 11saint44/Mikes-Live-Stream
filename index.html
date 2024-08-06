@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikeisapr11's Live Stream</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">Gallery</div>
+        <div class="nav-item">Pages</div>
+        <div class="nav-item">Shop</div>
+        <div class="nav-item user-icon">
+            <img src="path/to/user-icon.png" alt="User Icon">
+        </div>
+    </div>
+    <div class="live-stream">
+        <img src="downloads/mike.png" alt="Live Stream Screenshot">
+        <div class="live-info">
+            <img src="path/to/user-avatar.png" alt="User Avatar" class="avatar">
+            <p>Mikeisapr11 is Live Now!</p>
+            <button class="follow-btn">Follow Me</button>
+        </div>
+        <div class="stream-details">
+            <p>Streaming Since: 9:47</p>
+            <div class="actions">
+                <button class="donate-btn">DONATE</button>
+                <button class="subscribe-btn">SUBSCRIBE</button>
+                <button class="send-msg-btn">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <div id="donate-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Donate</h2>
+            <form id="donate-form">
+                <label for="card-number">Credit Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
